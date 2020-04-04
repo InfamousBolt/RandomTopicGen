@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="4dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fafafa"
+        android:text="Hey there buddy! Please choose your interests.\n The topics will be generated according to your interests."
+        android:fontFamily="casual"
+        android:paddingBottom="8dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/aliens"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aliens" />
+
+            <CheckBox
+                android:id="@+id/books"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Books" />
+
+            <CheckBox
+                android:id="@+id/contro"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Controversy"
+                android:textSize="17sp"/>
+
+            <CheckBox
+                android:id="@+id/fashion"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fashion" />
+
+            <CheckBox
+                android:id="@+id/fitness"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fitness" />
+
+            <CheckBox
+                android:id="@+id/fam"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Friends N Family" />
+
+            <CheckBox
+                android:id="@+id/eats"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Food N Drinks" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/game"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gaming" />
+
+            <CheckBox
+                android:id="@+id/ghost"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ghosts" />
+
+            <CheckBox
+                android:id="@+id/trend"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Latest Trends" />
+
+            <CheckBox
+                android:id="@+id/love"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Love" />
+
+            <CheckBox
+                android:id="@+id/movies"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Movies N Shows" />
+
+            <CheckBox
+                android:id="@+id/music"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music" />
+
+            <CheckBox
+                android:id="@+id/myth"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Myths" />
+
+            <CheckBox
+                android:id="@+id/nsfw"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NSFW" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/personal"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Personal" />
+
+            <CheckBox
+                android:id="@+id/politic"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Politics" />
+
+            <CheckBox
+                android:id="@+id/science"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Science" />
+
+            <CheckBox
+                android:id="@+id/school"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="School/College" />
+
+            <CheckBox
+                android:id="@+id/sports"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports" />
+
+            <CheckBox
+                android:id="@+id/tech"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Technology"
+                android:textSize="17sp"/>
+
+            <CheckBox
+                android:id="@+id/travel"
+                style="@style/forCheckboxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Travel N Tourism" />
+        </LinearLayout>
+    </LinearLayout>
+    <Button
+        android:onClick="generateTopic"
+        android:id="@+id/genTopics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Generate Topics"
+        android:layout_marginTop="20dp"/>
+</LinearLayout>

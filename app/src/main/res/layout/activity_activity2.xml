@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity2"
+    android:background="#FFEB3B">
+
+    <TextView
+        android:padding="6dp"
+        android:id="@+id/topicGenerated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:text=""/>
+    <Button
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="6dp"
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next topic"
+        android:onClick="next"/>
+    <TextView
+        android:padding="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Press 'back' button on your device to choose your interests again."/>
+
+
+
+
+
+</LinearLayout>
